@@ -39,6 +39,13 @@ background inherit from "body" in section_cards.css
     color: rgb(255, 255, 255);
     font-size: 26px;
 }
+.block-with-carousel-ice-cream-tastes__carousel-element_name-of-taste{
+    text-align: center;
+    font-family: 'Dangrek', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+
+}
 .block-with-carousel-ice-cream-tastes__carousel-element_taste-description {
     font-family: 'Source Sans 3', sans-serif;
     color:rgb(185, 177, 197);
