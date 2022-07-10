@@ -1,21 +1,62 @@
 .ingred {
+    padding: 20px;
+   
+    
 
 }
 .ingred-icon {
     display: block;
+    
+    width: 600px;
 
 }
 .ingred-content {
     display: block;
+    padding: 20px,20px,20px,20px;
+    background-color: #4a3b69;;
+    width: 600px;
+    position: relative;
+    left: 600px;
+    bottom: 500px;
+    
+    
+    
 
 }
 .ingred-text {
+    color: white;
+    font-family: 'Dangrek';
+    font-size: 21px;
+    font-style: italic;
+    
 
 }
 .ingred-text-title {
+    color: white;
+    font-family: 'Dangrek';
+    font-size: 48px;
+    font-weight: 400;
 
 }
+.ingred-text-natural {
+    font-family: 'Source Sans 3';
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: justify;
+
+
+    }
 .ingred-list {
+    color: white;
+    font-family: 'Source Sans 3';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
 
 }
-.ingred-text-recipe
+.ingred-text-recipe {
+    color: white;
+    font-family: 'Source Sans 3';
+    text-align: justify;
+    }
