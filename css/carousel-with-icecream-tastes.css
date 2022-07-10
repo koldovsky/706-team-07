@@ -12,6 +12,7 @@ background inherit from "body" in section_cards.css
     font-size: 14px;
     text-align: center;
     color: rgb(255, 255, 255);
+    background-color: #49385f;
 }
 .block-with-carousel-ice-cream-tastes__biggets-text {
     text-align: center;
