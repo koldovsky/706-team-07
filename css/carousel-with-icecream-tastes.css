@@ -1,0 +1,56 @@
+/**
+background inherit from "body" in section_cards.css
+**/
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap');
+.block-with-carousel-ice-cream-tastes {
+    padding: 60px 0px 60px 0px;
+}
+.block-with-carousel-ice-cream-tastes__small-h2 {
+    font-family: 'Leckerli+One', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.block-with-carousel-ice-cream-tastes__biggets-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-family: 'Dangrek', sans-serif;
+}
+.block-with-carousel-ice-cream-tastes__regular-text-on-head-divide {
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+    color: rgb(225,221,232);
+    font-size: 20px;
+}
+.block-with-carousel-ice-cream-tastes__carousel {
+    background:#32264b;
+
+}
+.img-carousel-element-icecream-tastes{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.block-with-carousel-ice-cream-tastes__biggets-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+}
+.block-with-carousel-ice-cream-tastes__carousel-element_taste-description {
+    font-family: 'Source Sans 3', sans-serif;
+    color:rgb(185, 177, 197);
+    font-style: italic;
+    text-align: center;
+}
+.block-with-carousel-ice-cream-tastes__carousel-element_price-currecny-and-value {
+    color: rgb(255, 196, 82);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 21px;
+}
+.block-with-carousel-ice-cream-tastes__carousel-element_price-ball {
+    color: rgb(185, 177, 197);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 21px;
+}
