@@ -1,0 +1,51 @@
+header {
+    margin: 0;
+    padding: 0;
+    background: url(/img/cover.png) center no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.links__logo {
+    width: 129px;
+    height: 63px;
+}
+.nav_links {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    display:inline-block;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+
+.header__content__uptitle {
+    font-family: "Leckerli One", undefined;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+}
+
+.header__content__h1 {
+    font-family: Dangrek, cursive;
+    font-size: 80px;
+    color: white;
+}
+
+.header__content__subtitle {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    color: white
+}
+
+.yellow-button {
+    background-color: rgb(255, 196, 82);
+    padding: 20px;
+    border-radius: 200px;
+}
+
+.purple-button {
+    background-color: rgb(50, 38, 75);
+    border-radius: 200px;
+    padding: 20px;
+}
