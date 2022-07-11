@@ -2,20 +2,17 @@
 
 .ingred {
     padding: 10px;
-   
-    
+     
 
 }
 .ingred-icon {
     display: block;
-    
     width: 600px;
 
 }
 .ingred-content {
     display: block;
     padding: 20px,20px,20px,20px
-    /*background-color: #4a3b69;*/
     width: 600px;
     position: relative;
     left: 600px;
