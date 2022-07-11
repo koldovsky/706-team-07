@@ -1,7 +1,19 @@
-.block-mini-menu-subtitle {
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Concert One', cursive ;
+}
+
+ .block-mini-menu-subtitle {
     text-align: center;
     color: white;
-    font-family:  ;
+    font-family: 'Leckerli One', cursive ;
 
 }
 
@@ -15,6 +27,23 @@
 .block-mini-menu-invitation {
     text-align: center;
     color: white;
-    font-family:  ;
+    font-family: 'Source Sans Pro', sans-serif; ;
 
+}
+
+.menu-block-buttons button{
+    color: #fff;
+    opacity: .6 ;
+    background: none;
+    border: 0ch;
+    padding: 20px 15px ; 
+}
+.menu-block-buttons{
+    text-align: center;
+    margin: 0 auto ;
+}
+
+.menu-block-buttons button:hover{
+   opacity: 1 ; 
+   cursor: pointer;
 }
