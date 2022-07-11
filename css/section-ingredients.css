@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
 .ingred {
-    padding: 20px;
+    padding: 10px;
    
     
 
@@ -12,8 +14,8 @@
 }
 .ingred-content {
     display: block;
-    padding: 20px,20px,20px,20px;
-    background-color: #4a3b69;;
+    padding: 20px,20px,20px,20px
+    /*background-color: #4a3b69;*/
     width: 600px;
     position: relative;
     left: 600px;
@@ -25,9 +27,9 @@
 }
 .ingred-text {
     color: white;
-    font-family: 'Dangrek';
+    font-family: 'Leckerli One', cursive;
     font-size: 21px;
-    font-style: italic;
+    font-style:
     
 
 }
@@ -43,7 +45,8 @@
     font-size: 20px;
     color: white;
     font-weight: 700;
-    text-align: justify;
+    /*text-align: justify;*/
+    
 
 
     }
@@ -58,5 +61,8 @@
 .ingred-text-recipe {
     color: white;
     font-family: 'Source Sans 3';
-    text-align: justify;
+    font-size: 18px;
+    font-weight: 570;
+    line-height: 30px;
+    
     }
