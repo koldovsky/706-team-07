@@ -1,49 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-
-body {
-    font-family: 'Concert One', cursive ;
 }
 
- .block-mini-menu-subtitle {
+body {
+    font-family: 'Concert One', cursive;
+    margin: 0  auto;
+}
+
+.block-mini-menu-subtitle {
     text-align: center;
     color: white;
-    font-family: 'Leckerli One', cursive ;
+    font-family: 'Leckerli One', cursive;
+    padding: 20px;
 
 }
 
 .block-mini-menu-title {
     text-align: center;
     color: white;
-    font-family:  ;
 
 }
 
 .block-mini-menu-invitation {
     text-align: center;
     color: white;
-    font-family: 'Source Sans Pro', sans-serif; ;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    font-size: 12px;
+    opacity: .7;
 
 }
 
-.menu-block-buttons button{
+.menu-block-buttons button {
     color: #fff;
-    opacity: .6 ;
+    opacity: .6;
     background: none;
     border: 0ch;
-    padding: 20px 15px ; 
-}
-.menu-block-buttons{
-    text-align: center;
-    margin: 0 auto ;
+    padding: 20px 15px;
 }
 
-.menu-block-buttons button:hover{
-   opacity: 1 ; 
-   cursor: pointer;
+.menu-block-buttons {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu-block-buttons button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.container-deserts {
+    max-width: 1300px;
+    margin: 0 auto;
+
+
+}
+
+.asorti-block-deserts img {
+    background-color: rgb(50, 38, 75);
+    width: 130px;
+    height: 133px;
+    
+}
+
+.asorti-block-deserts {
+    display: grid;
+    grid-template-columns : repeat(4, 1fr);
+    margin: 0 auto ;
+    
+}
+
+.asorti-block {
+    margin: 0 auto;
+
 }
