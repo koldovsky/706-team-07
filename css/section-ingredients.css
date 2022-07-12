@@ -2,34 +2,31 @@
 
 .ingred {
     padding: 10px;
-     
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width: 600px;
 
 }
 .ingred-icon {
     display: block;
-    width: 600px;
+    /*width: 600px;*/
 
 }
 .ingred-content {
     display: block;
     padding: 20px,20px,20px,20px
-    width: 600px;
-    position: relative;
-    left: 600px;
-    bottom: 500px;
+   
     
     
-    
-
-}
+   }
 .ingred-text {
     color: white;
     font-family: 'Leckerli One', cursive;
     font-size: 21px;
-    font-style:
     
-
-}
+    
+ }
 .ingred-text-title {
     color: white;
     font-family: 'Dangrek';
@@ -63,3 +60,4 @@
     line-height: 30px;
     
     }
+    
