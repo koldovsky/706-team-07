@@ -65,7 +65,7 @@ nav {
 .header__content__subtitle {
     font-family: "Source Sans 3", sans-serif;
     font-size: 20px;
-    font-weight: 700px !important;
+    font-weight: 700px;
     color: white;
     margin-bottom: 55px;
 }
