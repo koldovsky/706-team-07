@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/block-mini-menu.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="css/common.css">
 
 </head>
 
@@ -20,14 +21,18 @@
   <!--Vlad Start-->
   <header class="header">
     <nav class="header__nav">
-      <div class="nav_links">
-        <a href="#">About us</a>
-        <a href="menu.html">Menu</a>
-        <a href="#">Special</a>
+      <ul class="nav__links">
+        <a class="header__link" href="#">About us</a>
+        <a class="header__link" href="menu.html">Menu</a>
+        <a class="header__link" href="#">Special</a>
+      </ul>
+      <div class="nav__logo">
         <a href="#"><img src="img/logo.svg" alt="logo" class="links__logo"></a>
-        <a href="#">Ingredients</a>
-        <a href="#">Blod</a>
-        <a href="#">Contacts</a>
+      </div>
+      <div class="nav__links">
+        <a class="header__link" href="#">Ingredients</a>
+        <a class="header__link" href="#">Blod</a>
+        <a class="header__link" href="#">Contacts</a>
       </div>
     </nav>
 
@@ -36,8 +41,10 @@
       <h1 class="header__content__h1">Mr. Snowman Cafe</h1>
       <p class="header__content__subtitle">Handcrafting the most delicious ice cream since 1999.</p>
     </div>
-    <span class="yellow-button"><a href="#">About cafe</a></span>
-    <span class="purple-button"><a href="menu.html">Our menu</a></span>
+    <div class="header__buttons">
+      <span class="yellow-button"><a href="#">About cafe</a></span>
+      <span class="purple-button"><a href="menu.html">Our menu</a></span>
+    </div>
   </header>
   <!--Vlad End-->
 
