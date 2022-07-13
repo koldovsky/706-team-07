@@ -61,10 +61,11 @@ body {
 
 }
 
-.asorti-block-deserts img {
+.asorti-block img {
     background-color: rgb(50, 38, 75);
     width: 130px;
     height: 133px;
+    border-radius: 10% ;
     
 }
 
@@ -78,4 +79,28 @@ body {
 .asorti-block {
     margin: 0 auto;
 
+}
+
+.asorti-block-ice-cream img {
+    background-color: rgb(50, 38, 75);
+    width: 76px;
+    height: 133px;
+}
+
+.asorti-block-ice-cream {
+    display: grid;
+    grid-template-columns : repeat(4, 1fr);
+    margin: 0 auto ;
+}
+
+.asorti-block-drinks img {
+    background-color: rgb(50, 38, 75);
+    width: 130px;
+    height: 133px;
+}
+
+.asorti-block-drinks {
+    display: grid;
+    grid-template-columns : repeat(4, 1fr);
+    margin: 0 auto ;
 }
