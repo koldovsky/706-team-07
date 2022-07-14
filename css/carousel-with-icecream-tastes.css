@@ -25,11 +25,11 @@ background inherit from "body" in section_cards.css
 }
 .block-with-carousel-ice-cream-tastes__carousel {
     background:#32264b;
-
 }
 .img-carousel-element-icecream-tastes{
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    max-width: 200px;
 }
 .block-with-carousel-ice-cream-tastes__biggets-text {
     text-align: center;
@@ -53,9 +53,11 @@ background inherit from "body" in section_cards.css
     color: rgb(255, 196, 82);
     font-family: "Source Sans 3", sans-serif;
     font-size: 21px;
+    text-align: center;
 }
 .block-with-carousel-ice-cream-tastes__carousel-element_price-ball {
     color: rgb(185, 177, 197);
     font-family: "Source Sans 3", sans-serif;
     font-size: 21px;
+    text-align: center;
 }
