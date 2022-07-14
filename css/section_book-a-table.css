@@ -1,0 +1,39 @@
+.book-a-table_block{
+    padding: 60px 40px 60px 40px;
+    display: inline-flexbox;
+}
+
+.block_card1{
+    width: 70%;
+    height: fit-content;
+    background-image: url(../img/background_book-a-table_card1.png);
+}
+
+.block_card2{
+    width: 30%;
+    height: fit-content;
+    background-image: url(../img/background_book-a-table_card2.png);
+}
+
+.section-title{
+    font-family: 'Leckerli One', sans-serif;
+    color: white;
+    font-size: 21px;
+}
+
+.card1-title{
+    font-family: 'Dangrek', sans-serif;
+    color: white;
+    font-size: 48px;
+}
+
+.button{
+    background-color: #ffc452;
+    border-radius: 27px;
+    border-width: 2px;
+}
+
+.card1-link, card2-link{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}

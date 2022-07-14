@@ -1,24 +1,55 @@
 header {
-    margin: 0;
-    padding: 0;
-    background: url(/img/cover.png) center no-repeat;
+    margin: 0px;
+    margin-bottom: 250px;
+    padding: 0px 40px;
+    background-image: url(../img/cover.png);
+    background-size: cover;
     width: 100%;
     height: 100vh;
 }
-.links__logo {
-    width: 129px;
-    height: 63px;
-}
-.nav_links {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    display:inline-block;
+
+nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    vertical-align: top;
+    align-items: center;
 }
 
+.nav__links {
+    display: flex;
+    max-width: 100%;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.header__link {
+    font-weight: 700;
+    margin: 17.5px;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+    color: pink;
+    transition: 0.2s;
+}
+
+.nav__logo {
+    display: block;
+    max-width: 100%;
+}
+
+.links__logo {
+    width: 150px;
+    height: 100px;
+}
+
+.header__content {
+    margin-top: 250px;
+    margin-bottom: 55px;
+}
 .header__content__uptitle {
     font-family: "Leckerli One", undefined;
     font-size: 21px;
@@ -34,8 +65,9 @@ header {
 .header__content__subtitle {
     font-family: "Source Sans 3", sans-serif;
     font-size: 20px;
-    font-weight: 500px;
-    color: white
+    font-weight: 700px;
+    color: white;
+    margin-bottom: 55px;
 }
 
 .yellow-button {
