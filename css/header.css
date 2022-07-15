@@ -70,6 +70,16 @@ nav {
     margin-bottom: 55px;
 }
 
+.header__buttons {
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+@media (max-width: 400px) {
+    .header__buttons {
+        grid-template-columns: 300px;
+    }
+}
+
 .yellow-button {
     background-color: rgb(255, 196, 82);
     padding: 20px;
