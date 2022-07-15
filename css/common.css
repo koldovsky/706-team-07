@@ -8,6 +8,5 @@ body {
     background-color: #493b5f;
 }
 .container {
-    padding-left: 15%;
-    padding-right: 15%;
+    max-width: 1150px;
 }
