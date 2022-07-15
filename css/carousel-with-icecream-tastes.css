@@ -2,19 +2,22 @@
 background inherit from "body" in section_cards.css
 **/
 .block-with-carousel-ice-cream-tastes {
-    padding: 60px 0px 60px 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #32264b;
+    text-align: center;
 }
 .block-with-carousel-ice-cream-tastes__small-h2 {
-    font-family: 'Leckerli+One', sans-serif;
+    font-family: 'Leckerli One', sans-serif;
     font-size: 14px;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: #49385f;
+    background-color: #32264b;
 }
 .block-with-carousel-ice-cream-tastes__biggets-text {
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 34px;
     font-family: 'Dangrek', sans-serif;
 }
 .block-with-carousel-ice-cream-tastes__regular-text-on-head-divide {
@@ -27,8 +30,9 @@ background inherit from "body" in section_cards.css
     background:#32264b;
 }
 .img-carousel-element-icecream-tastes{
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 200px;
 }
 .block-with-carousel-ice-cream-tastes__biggets-text {
@@ -49,6 +53,10 @@ background inherit from "body" in section_cards.css
     font-style: italic;
     text-align: center;
 }
+.block-with-carousel-ice-cream-tastes__carousel-element_price-common-text {
+    text-align: center;
+    padding-bottom: 20px;
+}
 .block-with-carousel-ice-cream-tastes__carousel-element_price-currecny-and-value {
     color: rgb(255, 196, 82);
     font-family: "Source Sans 3", sans-serif;
@@ -60,4 +68,29 @@ background inherit from "body" in section_cards.css
     font-family: "Source Sans 3", sans-serif;
     font-size: 21px;
     text-align: center;
+}
+.yellow-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 480px) {
+    .block-with-carousel-ice-cream-tastes__small-h2 {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) {
+    .block-with-carousel-ice-cream-tastes__small-h2 {
+        font-size: 17px;
+    }
+    .block-with-carousel-ice-cream-tastes__biggets-text {
+        font-size: 41px;
+    }
+    
+@media (min-width: 1024px) {
+    .block-with-carousel-ice-cream-tastes__small-h2 {
+        font-size: 21px;
+    }
+    .block-with-carousel-ice-cream-tastes__biggets-text {
+        font-size: 48px;
+    }
 }

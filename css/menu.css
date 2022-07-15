@@ -1,8 +1,9 @@
 @import url(common.css);
 
-body{
+/*body{
     background-color: #6382a7;
   }
+  */
   nav {
     display: flex;
     justify-content: space-between;
