@@ -6,6 +6,7 @@ background inherit from "body" in section_cards.css
     padding-bottom: 60px;
     background-color: #32264b;
     text-align: center;
+    min-width: 411px;
 }
 .block-with-carousel-ice-cream-tastes__small-h2 {
     font-family: 'Leckerli One', sans-serif;
