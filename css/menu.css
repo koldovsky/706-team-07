@@ -9,7 +9,10 @@
     justify-content: space-between;
     align-items: center;
 }
-
+  
+.menu{
+  background-color: #6382a7;
+}
 .nav__links {
     display: flex;
     max-width: 100%;
