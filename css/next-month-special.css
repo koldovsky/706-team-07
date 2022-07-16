@@ -1,17 +1,25 @@
 
-.w-text-content {
-    color: rgb(250, 253,255);
-    text-transform: none;
-    font-weight: 300;
+    .w-text-content {
+        color: rgb(250, 253,255);
+        text-transform: none;
+        font-weight: 300;
+        font-family: 'Leckerli One', cursive;  
 }
-
-season-menu-icon {
+subtitle {
+    color: aliceblue;
+    font-family: 'Dangrek', cursive;
+    font-family: 'Leckerli One', cursive;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.season-menu-icon {
     color: rgb(250, 253, 255);
-    text-transform: none;
-
-}
+    text-transform: none;  
+    }
+    
 .speciale-list {
 color: rgb(250, 253, 255);
-
-
+    font-family: 'Dangrek', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Source Sans 3', sans-serif;
 }
+
