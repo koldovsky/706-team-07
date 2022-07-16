@@ -8,7 +8,20 @@
     margin: auto;
     
   }
+
+  .desserts{
+    display: flex;
+  }
+
+  .milk_shakes{
+    display: flex;
+  }
   
+  .ice_cream{
+    display: flex;
+  }
+
+
   .card_img{
     width:100%;
     border-radius: 10px;
