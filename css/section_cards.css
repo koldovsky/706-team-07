@@ -1,11 +1,4 @@
-@charset "utf-8";
 
-body{
-    padding: 10px;
-    font-family: Arial;
-    background: #493b5f;
-     
-  }
   
   .wrap_cards{
     display: grid;
@@ -13,7 +6,7 @@ body{
     grid-gap: 30px;
     max-width: 1200px;
     margin: auto;
-    margin-top: 300px;
+    
   }
   
   .card_img{
