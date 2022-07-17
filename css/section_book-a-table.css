@@ -1,39 +1,169 @@
 .book-a-table_block{
-    padding: 60px 40px 60px 40px;
-    display: inline-flexbox;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 60px 24px;
+    gap: 50px;
+    max-width: 1200px;
+
 }
 
 .block_card1{
-    width: 70%;
-    height: fit-content;
+
     background-image: url(../img/background_book-a-table_card1.png);
+    background-color: rgb(50, 38, 75);
+    background-size: cover;
+    border-radius: 6px;
+    margin: auto;
+    width: 100%;
+    padding: 35px 47px;
 }
 
 .block_card2{
-    width: 30%;
-    height: fit-content;
     background-image: url(../img/background_book-a-table_card2.png);
+    background-color: rgb(184, 115, 144);
+    background-size: cover;
+    border-radius: 6px;
+    display: block;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 31px;
 }
 
 .section-title{
     font-family: 'Leckerli One', sans-serif;
     color: white;
-    font-size: 21px;
+    font-size: 14px;
+    margin: 0px;
 }
 
 .card1-title{
     font-family: 'Dangrek', sans-serif;
     color: white;
-    font-size: 48px;
+    font-size: 34px;
+    margin: 20px 0px 0px 0px;
+    display: block;
+}
+
+.card1-title-style{
+    display: block;
+    letter-spacing: normal;
+    line-height: 1.1;
+}
+
+.card2-title{
+    font-family: 'Dangrek', sans-serif;
+    color: rgb(50, 38, 75);
+    font-size: 22px;
+    margin: 0px 20px 35px 20px;
+    text-align: center;
 }
 
 .button{
+    display: block;
     background-color: #ffc452;
     border-radius: 27px;
     border-width: 2px;
+    text-align: center;
+    color: white;
+    margin: 35px 0px 0px 0px;
+    padding: 15px 30px;
+    width: fit-content;
+}
+.button2{
+    display: block;
+    align-content: center;
+    margin: auto;
+    width: fit-content;
+    background-color: rgb(50, 38, 75);
+    border-radius: 27px;
+    border-width: 2px;
+    text-align: center;
+    color: white;
+    padding: 15px 30px;
 }
 
-.card1-link, card2-link{
+.card1-link, .card2-link{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
+    font-weight: 700;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    line-height: 20.7px;
+}
+
+@media only screen and (min-width: 768px){
+    .book-a-table_block{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 30px;
+        margin: 0 auto;
+
+    }
+    .block_card1{
+        margin: 0;
+        padding: 40px 58px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 66.6667%;
+        justify-content: center;
+
+
+    }
+    .block_card2{
+        margin: 0;
+        padding: 34px;
+        flex-basis: 33.3333%;
+    }
+    .section-title{
+        font-size: 17px;
+    }
+    .card1-title{
+        font-size: 41px;
+    }
+    .card2-title{
+        font-size: 24px;
+        margin: 0px 0px 35px 0px;
+    }
+    .button2{
+        margin-bottom: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 991px){
+    .book-a-table_block{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 60px 24px;
+        margin: 0 auto;
+    }
+    .block_card1{
+        margin: 0;
+        padding: 40px 58px;
+        flex-basis: 66.6667%;
+    }
+    .block_card2{
+        margin: 0;
+        padding: 34px;
+        flex-basis: 33.3333%;
+    }
+    .section-title{
+        font-size: 21px;
+    }
+    .card1-title{
+        font-size: 48px;
+    }
+    .card2-title{
+        font-size: 26px;
+        margin: 0px 0px 35px 0px;
+    }
+    .button2{
+        margin-bottom: 200px;
+    }
+
 }
