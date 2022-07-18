@@ -21,6 +21,7 @@ body {
 .block-mini-menu-title {
     text-align: center;
     color: white;
+    font-size: 50px;
 
 }
 
@@ -52,7 +53,7 @@ body {
     cursor: pointer;
 }
 
-.container-deserts {
+.block-mini-menu {
     max-width: 1300px;
     margin: 0 auto;
 
@@ -78,6 +79,7 @@ body {
 
 .asorti-block {
     margin: 0 auto;
+    display: non;
 
 }
 
@@ -109,4 +111,24 @@ body {
     align-items: center;
     gap: 20px ;
     padding: 0 345px;
+}
+
+.tabs-items{
+    display: flex;
+}
+
+.tabs-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif ;
+    color: #fff;
+    opacity: .6 ;
+    text-decoration: none;
+    
+
+}
+
+.container-deserts:target{
+    display: block;
 }

@@ -222,22 +222,30 @@
 
       <div class="text-information">
           <h4 class="block-mini-menu-subtitle">Our menu</h4>
-          <h1 class="block-mini-menu-title">Featured Desserts & Treats</h1>
+          <h2 class="block-mini-menu-title">Featured Desserts & Treats</h2>
           <p class="block-mini-menu-invitation">Welcome to the sweet tooth paradise!</p>
       </div>
 
       <div class="menu-block-mini-menu">
+    
           <div class="menu-block-buttons">
-              <button class="menu-button menu-button-desserts">Desserts</button>
+            <!--  
+              <button class=" menu-button-desserts">Desserts</button>
               <button class="menu-button-ice-creame">Ice Cream</button>
               <button class="menu-button-drinks">Drinks</button>
+               -->
+              <nav class="tabs-items">
+                <a href="#asorti_desserts" class="tabs-item">Desserts</a>
+                <a href="#asorti_ice-cream" class="tabs-item">Ice cream</a>
+                <a href="#asorti_drinks" class="tabs-item">Drinks</a>
+              </nav>
+
           </div>
 
           <div class="asorti-block">
             <div class="container-deserts">            
-                <div class="asorti-block-deserts " >
-                    <img src="img/dessert1.png" alt="fruit-desert" class="sweet-joy"> 
-                    
+                <div class="asorti-block-deserts " id="asorti_desserts" >
+                    <img src="img/dessert1.png" alt="fruit-desert" class="sweet-joy"
                     <img src="img/desert4.png" alt="vanilla-desert" class="gentle-cloud">
                     <img src="img/desert7.png" alt="strawberry-desert"class="rose-sparkle">
                     <img src="img/desert3.png" alt="kiwi-desert"class="tropical-day">
@@ -247,7 +255,7 @@
                     <img src="img/desert9.png" alt="dessert-with-chocolate-sprinkles"class="choco-cream">
               </div>
 
-              <div class="asorti-block-ice-cream ">
+              <div class="asorti-block-ice-cream " id="asorti_ice-cream">
                 
                     <img src="img/icecream1.png" alt="lemon-lime-ice-cream" class="lemon-lime-ice-cream">
                     <img src="img/icecream3.png" alt="blackberry-ice-cream" class="blackberry-ice-cream">
@@ -260,7 +268,7 @@
 
               </div>
 
-              <div class="asorti-block-drinks ">
+              <div class="asorti-block-drinks " id="asorti_drinks">
                 
                     <img src="img/shake1.png" alt="strawberry-shake" class="strawberry-shake">
                     <img src="img/shake2.png" alt="caramel-shake" class="caramel-shake">
