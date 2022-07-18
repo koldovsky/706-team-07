@@ -1,25 +1,34 @@
 
-    .w-text-content {
+.season-offer {
         color: rgb(250, 253,255);
         text-transform: none;
         font-weight: 300;
-        font-family: 'Leckerli One', cursive;  
+        font-family: Leckerli One; 
+        display: flex; 
+        flex-direction: row;
 }
-subtitle {
-    color: aliceblue;
-    font-family: 'Dangrek', cursive;
-    font-family: 'Leckerli One', cursive;
-    font-family: 'Source Sans 3', sans-serif;
+.subtitle__list {
+    color: rgb(237, 236, 242);
+    font-family: Dangrek;
+    font-weight: 600;
+    text-transform: inherit;
 }
-.season-menu-icon {
-    color: rgb(250, 253, 255);
-    text-transform: none;  
-    }
-    
-.speciale-list {
-color: rgb(250, 253, 255);
-    font-family: 'Dangrek', cursive;
-font-family: 'Leckerli One', cursive;
-font-family: 'Source Sans 3', sans-serif;
+.text-vanilla {
+    font-family: Dangrek;
+    flex-direction: column;
+    justify-content:first baseline;
+    flex-wrap: wrap;
+    min-width: 600px;
+
 }
 
+.list__content {
+    font-family: Source Sans 3 ;
+    display: flex;
+    justify-content:first baseline;
+}
+.img {
+    width: 350;
+    justify-content: flex-end;
+    display:block;
+}
