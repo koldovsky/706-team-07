@@ -1,34 +1,59 @@
 
-.season-offer {
-        color: rgb(250, 253,255);
-        text-transform: none;
-        font-weight: 300;
-        font-family: Leckerli One; 
-        display: flex; 
-        flex-direction: row;
+  .season-offer {
+    color: rgb(250, 253,255);
+    text-transform: none;
+    font-weight: 300;
+    font-family: Leckerli One; 
+    display: flex; 
+    flex-direction: inherit;
+    justify-content: center;
 }
 .subtitle__list {
-    color: rgb(237, 236, 242);
-    font-family: Dangrek;
-    font-weight: 600;
-    text-transform: inherit;
+color: rgb(237, 236, 242);
+font-family: Dangrek;
+font-weight: 600;
+text-transform: inherit;
+justify-content: center;
 }
 .text-vanilla {
-    font-family: Dangrek;
-    flex-direction: column;
-    justify-content:first baseline;
-    flex-wrap: wrap;
-    min-width: 600px;
+font-family: Dangrek;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+min-width: 600px;
 
+}
+p{
+font-family: Dangrek;
+font-size: medium;
+justify-content: center;
 }
 
 .list__content {
-    font-family: Source Sans 3 ;
-    display: flex;
-    justify-content:first baseline;
+font-family: Source Sans ;
+display: flex;
+justify-content: center;
 }
 .img {
-    width: 350;
-    justify-content: flex-end;
-    display:block;
+width: 350px;
+justify-content: flex-end;
+display: block;
+}
+.icon-vanilla {
+display: flex;
+justify-content: flex-start;
+fill: currentColor;
+height: 40px;
+}
+.icon-fresh-fruit {
+display: flex;
+justify-content: flex-start;
+fill: currentColor;
+height: 40px;
+}
+.icon-popping-sugar {
+display: flex;
+justify-content: flex-start;
+fill: currentColor;
+height: 40px;
 }
