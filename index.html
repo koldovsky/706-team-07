@@ -48,36 +48,38 @@
   <main>
     <!-- Alina Start -->
     <section class="wrap_cards">
-       <div class="box_cards">
+       
+        <div class="desserts">
+        <div class="card_img">
+          <img src ="img/desserts.png" alt="desserts" class="card_img">
+       </div>
           <div class="cards_items">
              <div class="card_title">Desserts</div>
              <a class="menu_link" href="menu.html">View menu</a>
           </div>
-          <div class="card_img">
-             <img src ="img/desserts.png" alt="desserts" class="card_img">
-          </div>
+       </div>
        </div>
 
-       <div class="box_cards">
+       <div class="milk_shakes">
+        <div class="card_img">
+          <img src ="img/milk_shakes.png" alt="milk shakes" class="card_img">
+       </div>
           <div class="cards_items">
              <div class="card_title">Milk Shakes</div>
-             
-              <a class="menu_link" href="menu.html">View menu</a>
-           
-          </div>
-          <div class="card_img">
-             <img src ="img/milk_shakes.png" alt="milk shakes" class="card_img">
-          </div>
-       </div>
-
-       <div class="box_cards">
-          <div class="cards_items">
-             <div class="card_title">Ice Cream</div>
              <a class="menu_link" href="menu.html">View menu</a>
           </div>
-          <div class="card_img">
-             <img src ="img/ice_cream_card.png" alt="icecream" class="card_img">
+       </div>
+       </div>
+
+       <div class="ice_cream">
+        <div class="card_img">
+          <img src ="img/ice_cream_card.png" alt="ice cream" class="card_img">
+       </div>
+          <div class="cards_items">
+             <div class="card_title">Ice cream</div>
+             <a class="menu_link" href="menu.html">View menu</a>
           </div>
+       </div>
        </div>
 
     </section>
@@ -85,27 +87,36 @@
  <!-- Alina End -->
 
   <!--Liubov Tytianevych-->
-   <div>
-    <span class="season-menu"></span>
-   <div>
-      <div class="season-menu-icon"></div>
-    </div>
-    <div><div class="speciale-list">
-    <div class="w-text-content"> Next month speciale</div><br>
-    <div class="title">Try New Splashes of Tacte!</div><br>
-    <div class="subtitle">Three great ice cream tastes worth waiting for:</div>
-    <ul>
-      <li>Cream with vanilla. Fine vanilla flavor with milky aftertaste.</li>
-      <li>Fresh fruit. What is summer without fresh fruit?</li>
-      <li>Popping Sugar.Feel the sugar pop on your tongue!</li>
-    </ul></div>
-    <div class="description of the seasonal menu">
-      <p>Fine vanilla flavor with milky aftertaste</p>
-      <p> What is summer without fresh fruit?</p>
-      <p>Feel the sugar pop on your tongue! </p></div>
-      <img src="img/ice.cream.in.waffle.png" width="350" alt="illustration ice-cream"> 
-    </div>
-   </div>
+  <div class="season-offer">
+    <div class="text-content">
+     <h2>Next month speciale</h2>
+      <p class="subtitle__list">Try New Splashes of Tacte!</p>
+       <p class="list__content">Three great ice cream tastes worth waiting for:</p>
+        <div class="list-vanilla">
+         <div class="icon-vanilla"><img src="img/vanilla-icon.png" width="50" alt="illustration vanilla flower"></div>
+          <div class="text-vanilla">
+           <p>Cream with vanilla.</p><p class="list__content">Fine vanilla flavor with milky aftertaste.</p>
+        </div>
+     </div>
+     <div class="list-fresh-fruit">
+     <div class="icon-fresh-fruit"><img src="img/fruit-icon.png" width="50" alt="illustration strawberries and banana"></div>
+     <div class="text-fresh-fruit">
+      <p>Fresh fruit.</p><p class="list__content">What is summer without fresh fruit?</p>
+     </div>
+     </div>
+     <div class="list-popping-sugar">
+     <div class="icon-popping-sugar"><img src="img/sugar-popping.png" width="50" alt="illustration popping sugar"></div>
+     <div class="text-popping-sugar">
+      <p>Popping Sugar.</p><p class="list__content">The sugar pop on your tongue!</p>
+     </div>
+     </div>
+  </div>
+ 
+     <div class="img">
+      <img src="img/ice-cream-in-waffle.png" width="350" alt="illustration ice-cream">
+     </div>
+
+ </div> 
   
   <!--Oleksandr Utkin-->
   <section class="block-with-carousel-ice-cream-tastes container">
@@ -178,7 +189,7 @@
   <section class="ingred">
 
     <div class="ingred-icon">
-      <img src="img/collage.png" width="600" alt="ice-cream-berry">
+      <img src="img/collage.png" alt="ice-cream-berry">
 
     </div>
 
@@ -189,8 +200,8 @@
       <div class="ingred-list">
         <ul>
           <li><span><img src="img/icon-ingred-organic.svg" id="icon-cont-organic"></span>Farm milk from local households;</li>
-          <li>Berry and fruit pieces and whole fruit;</li>
-          <li>No chemical flavors or sweeteners.</li>
+          <li><span><img src="img/icon-ingred-organic.svg" id="icon-cont-organic"></span>Berry and fruit pieces and whole fruit;</li>
+          <li><span><img src="img/icon-ingred-organic.svg" id="icon-cont-organic"></span>No chemical flavors or sweeteners.</li>
         </ul>
 
       </div>
@@ -212,22 +223,30 @@
 
       <div class="text-information">
           <h4 class="block-mini-menu-subtitle">Our menu</h4>
-          <h1 class="block-mini-menu-title">Featured Desserts & Treats</h1>
+          <h2 class="block-mini-menu-title">Featured Desserts & Treats</h2>
           <p class="block-mini-menu-invitation">Welcome to the sweet tooth paradise!</p>
       </div>
 
       <div class="menu-block-mini-menu">
+    
           <div class="menu-block-buttons">
-              <button class="menu-button menu-button-desserts">Desserts</button>
+            <!--  
+              <button class=" menu-button-desserts">Desserts</button>
               <button class="menu-button-ice-creame">Ice Cream</button>
               <button class="menu-button-drinks">Drinks</button>
+               -->
+              <nav class="tabs-items">
+                <a href="#asorti_desserts" class="tabs-item">Desserts</a>
+                <a href="#asorti_ice-cream" class="tabs-item">Ice cream</a>
+                <a href="#asorti_drinks" class="tabs-item">Drinks</a>
+              </nav>
+
           </div>
 
           <div class="asorti-block">
             <div class="container-deserts">            
-                <div class="asorti-block-deserts " >
-                    <img src="img/dessert1.png" alt="fruit-desert" class="sweet-joy"> 
-                    
+                <div class="asorti-block-deserts " id="asorti_desserts" >
+                    <img src="img/dessert1.png" alt="fruit-desert" class="sweet-joy"
                     <img src="img/desert4.png" alt="vanilla-desert" class="gentle-cloud">
                     <img src="img/desert7.png" alt="strawberry-desert"class="rose-sparkle">
                     <img src="img/desert3.png" alt="kiwi-desert"class="tropical-day">
@@ -237,7 +256,7 @@
                     <img src="img/desert9.png" alt="dessert-with-chocolate-sprinkles"class="choco-cream">
               </div>
 
-              <div class="asorti-block-ice-cream ">
+              <div class="asorti-block-ice-cream " id="asorti_ice-cream">
                 
                     <img src="img/icecream1.png" alt="lemon-lime-ice-cream" class="lemon-lime-ice-cream">
                     <img src="img/icecream3.png" alt="blackberry-ice-cream" class="blackberry-ice-cream">
@@ -250,7 +269,7 @@
 
               </div>
 
-              <div class="asorti-block-drinks ">
+              <div class="asorti-block-drinks " id="asorti_drinks">
                 
                     <img src="img/shake1.png" alt="strawberry-shake" class="strawberry-shake">
                     <img src="img/shake2.png" alt="caramel-shake" class="caramel-shake">
@@ -282,13 +301,16 @@
 
     <div class="block_card1">
       <h2 class="section-title">Book a table</h2>
-      <p class="card1-title">Hurry Up to Book the Coziest Table Now!</p>
+      <p class="card1-title">
+        <span class="card1-title-style">Hurry Up to Book the</span> 
+        <span class="card1-title-style">Coziest Table Now!</span>
+      </p>
       <a href="book-a-table.html" class="card1-link button">Book a Table</a>
     </div>
 
     <div class="block_card2">
-      <p class="card2-title-">Get Advantage of Our Special Offers!</p>
-      <a href="#learnmore" class="card2-link button">Learn More</a>
+      <p class="card2-title">Get Advantage of Our Special Offers!</p>
+      <a href="#learnmore" class="card2-link button2">Learn More</a>
     </div>
 
   </section>

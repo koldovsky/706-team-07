@@ -21,6 +21,7 @@ body {
 .block-mini-menu-title {
     text-align: center;
     color: white;
+    font-size: 50px;
 
 }
 
@@ -52,7 +53,7 @@ body {
     cursor: pointer;
 }
 
-.container-deserts {
+.block-mini-menu {
     max-width: 1300px;
     margin: 0 auto;
 
@@ -69,13 +70,16 @@ body {
 
 .asorti-block-deserts {
     display: grid;
-    grid-template-columns : repeat(4, 1fr);
+    grid-template-columns : repeat(4, 150px);
     margin: 0 auto ;
-    
+    align-items: center;
+    gap: 20px ;
+    padding: 0 335px;
 }
 
 .asorti-block {
     margin: 0 auto;
+    display: non;
 
 }
 
@@ -87,18 +91,44 @@ body {
 
 .asorti-block-ice-cream {
     display: grid;
-    grid-template-columns : repeat(4, 1fr);
+    grid-template-columns : repeat(4, 150px);
     margin: 0 auto ;
+    align-items: center;
+    gap: 20px ;
+    padding: 0 360px;
 }
 
 .asorti-block-drinks img {
     background-color: rgb(50, 38, 75);
-    width: 130px;
-    height: 133px;
+    width: 115px;
+    height: 130px;
 }
 
 .asorti-block-drinks {
     display: grid;
-    grid-template-columns : repeat(4, 1fr);
+    grid-template-columns : repeat(4, 150px);
     margin: 0 auto ;
+    align-items: center;
+    gap: 20px ;
+    padding: 0 345px;
+}
+
+.tabs-items{
+    display: flex;
+}
+
+.tabs-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif ;
+    color: #fff;
+    opacity: .6 ;
+    text-decoration: none;
+    
+
+}
+
+.container-deserts:target{
+    display: block;
 }
