@@ -7,6 +7,9 @@ background inherit from "body" in section_cards.css
     background-color: #32264b;
     text-align: center;
     min-width: 411px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .block-with-carousel-ice-cream-tastes__small-h2 {
     font-family: 'Leckerli One', sans-serif;
@@ -70,9 +73,14 @@ background inherit from "body" in section_cards.css
     font-size: 21px;
     text-align: center;
 }
-.yellow-button {
-    margin-left: auto;
-    margin-right: auto;
+.yellow-button-block {
+    background-color: rgb(255, 196, 82);
+    border-radius: 200px;
+    max-width: 130px;
+    width: 100%;
+    margin-right: 20px;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
 }
 @media (min-width: 480px) {
     .block-with-carousel-ice-cream-tastes__small-h2 {
@@ -86,7 +94,7 @@ background inherit from "body" in section_cards.css
     .block-with-carousel-ice-cream-tastes__biggets-text {
         font-size: 41px;
     }
-    
+}
 @media (min-width: 1024px) {
     .block-with-carousel-ice-cream-tastes__small-h2 {
         font-size: 21px;
