@@ -10,23 +10,23 @@
 .ingred-icon {
     display: block;
     /*width: 600px;*/
+    padding-left: 40px;
 
 }
 .ingred-icon img {
-    width: 100%;
+    width: 80%;
     max-width: 600px;
 }
 .ingred-content {
     display: block;
     /*padding: 20px,20px,20px,20px*/
    
-    
-    
+     
    }
 .ingred-text {
     color: white;
     font-family: 'Leckerli One', cursive;
-    font-size: 21px;
+    font-size: 24px;
     
     
  }
@@ -44,8 +44,6 @@
     font-weight: 700;
     /*text-align: justify;*/
     
-
-
     }
 .ingred-list {
     color: white;
@@ -77,6 +75,23 @@
     fill: rgb(184, 115, 144);
     width: 24px;
     
-
+}
+.ingred__slides {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    height: 400px;
+    padding:30px 0 0 80px;
+    text-indent: 0px;
+    transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    cursor: pointer;}
+    
+.ingred__slides:hover {
+    transform: scale(2 );
+    -moz-transform: scale(2 );
+    -o-transform: scale(2 );
+    transform-origin: center;
 }
     
