@@ -1,3 +1,4 @@
+/*           ingred_section  Start         */
 (function () {
     const ingdedSlides = [
 
@@ -5,7 +6,7 @@
       <img src="img/collage.png" alt="ice-cream-berry">
     </div>`,
     `<div class="ingred-icon">
-      <img src="img/ice.cream.in.waffle.png" alt="ice-cream-waffle">
+      <img src="img/ice-cream-in-waffle.png" alt="ice-cream-waffle">
     </div>`,
     `<div class="ingred-icon">
       <img src="img/desert9.png" alt="desert">
@@ -32,6 +33,8 @@
     setInterval(next, 500);
 
     renderCarousel();
+
+    /*      ingred section    END     */
 
     
 
