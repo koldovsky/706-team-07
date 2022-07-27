@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 
-body {
+/*body {
     font-family: 'Concert One', cursive;
     margin: 0  auto;
 }
-
+*/
 .block-mini-menu-subtitle {
     text-align: center;
     color: white;
@@ -21,6 +21,7 @@ body {
 .block-mini-menu-title {
     text-align: center;
     color: white;
+    font-size: 50px;
 
 }
 
@@ -52,53 +53,78 @@ body {
     cursor: pointer;
 }
 
-.container-deserts {
+.block-mini-menu {
     max-width: 1300px;
     margin: 0 auto;
 
 
 }
 
-.asorti-block img {
-    background-color: rgb(50, 38, 75);
-    width: 130px;
-    height: 133px;
-    border-radius: 10% ;
+
     
-}
 
 .asorti-block-deserts {
     display: grid;
-    grid-template-columns : repeat(4, 1fr);
+    grid-template-columns : repeat(4, 150px);
     margin: 0 auto ;
-    
+    align-items: center;
+    gap: 20px ;
+    padding: 0 335px;
 }
 
 .asorti-block {
     margin: 0 auto;
+    display: non;
 
 }
 
-.asorti-block-ice-cream img {
-    background-color: rgb(50, 38, 75);
-    width: 76px;
-    height: 133px;
+
+.tabs-items{
+    display: flex;
 }
 
-.asorti-block-ice-cream {
-    display: grid;
-    grid-template-columns : repeat(4, 1fr);
-    margin: 0 auto ;
+.tabs-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif ;
+    color: #fff;
+    opacity: .6 ;
+    text-decoration: none;
+    
+
 }
 
-.asorti-block-drinks img {
-    background-color: rgb(50, 38, 75);
+.container-deserts:target{
+    display: block;
+}
+
+
+
+
+.desert_item {
     width: 130px;
-    height: 133px;
+    height: auto;
 }
+.desert_img {
 
-.asorti-block-drinks {
-    display: grid;
-    grid-template-columns : repeat(4, 1fr);
-    margin: 0 auto ;
+    background-color: rgb(50, 38, 75);
+    padding: 40px;
+    border-radius: 30px;
 }
+.deserts {
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.deserts .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.container {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  }

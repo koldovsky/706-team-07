@@ -1,63 +1,70 @@
 
-  
-  .wrap_cards{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 30px;
-    max-width: 1200px;
-    margin: auto;
-    
-  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
 
-  .desserts{
+
+main.cards {
     display: flex;
-  }
+    justify-content: center;
+    align-items: center;
+}
 
-  .milk_shakes{
+main.cards section.card {
     display: flex;
-  }
-  
-  .ice_cream{
-    display: flex;
-  }
-
-
-  .card_img{
-    width:100%;
-    border-radius: 10px;
-  }
-  
-  a.menu_link{
-    margin: 70px;
-    position: relative;
-    font-size:15px;
-    color:#fff;
-    text-decoration: none;
-    
-    
-  }
-  
-  .cards_items{
-    font-size: 40px;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    padding: 10px;
+    margin-left: 15px;
+    background: none;
+    border: none;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 100%;
+   
+}
+
+main.cards section.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.menu_card_title {
+    font-size: 30px;
+    margin: 16px 0;
+    padding-top: 10px;
     position: absolute;
+    text-align: center;
     color:#fff;
     margin: 45px;
-    padding-left: 10px;
-  }
-  
-  .wrap_cards a {
-    border-radius: 100px;
-    margin-top: 15px;
-    display: block;
-    width: 50%;
-    padding: 10px 30px;
-    background: #493b5f;
-    color: #fff;
+    font-family: 'Dangrek', sans-serif;
     
-  }
-  
-  .wrap_cards a:hover {
+}
+
+
+main.cards section.card .menu_link {
+    padding: 0.5rem 1rem;
+    border-radius: 32px;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    background: #493b5f;
+    margin-top: 150px;
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+main.cards section.card .menu_link:hover {
     color: #fff;
     background: #a55376;
     transition: all 0.3s linear;
@@ -65,3 +72,32 @@
     -moz-transition: all 0.3s linear;
   }
   
+main.cards .menu_link {
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card .menu_link {
+        font-size: 50%;
+    }
+
+    .menu_card_title {
+      font-size: 40px;
+}
+
+}
