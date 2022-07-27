@@ -1,9 +1,5 @@
 @import url(common.css);
 
-/*body{
-    background-color: #6382a7;
-  }
-  */
   nav {
     display: flex;
     justify-content: space-between;
@@ -12,6 +8,8 @@
   
 .menu{
   background-color: #6382a7;
+  margin-top: -30px;
+  margin-bottom: -30px;
 }
 .nav__links {
     display: flex;
@@ -126,16 +124,18 @@
     align-items: center;
     margin: auto;
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
   }
 
-  /*h3{
+  .menu_uptitle{
     font-family: "Leckerli One", undefined;
     font-size: 20px;
+    margin-top: 50px;
   }
 
-  p{
+  .menu_subtitle{
     font-family: "Source Sans 3", sans-serif;
     font-size: 20px;
+    margin-top: 10px;
   }
-*/
+
