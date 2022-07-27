@@ -1,5 +1,7 @@
 
 .ingred {
+    margin-top: 120px;
+    margin-bottom: 100px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -71,7 +73,7 @@
     padding: 10px;
 }
 
-#icon-cont-organic {
+.icon-cont-organic {
     fill: rgb(184, 115, 144);
     width: 24px;
     
