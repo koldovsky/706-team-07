@@ -59,7 +59,8 @@
  .item-wrapper {
      width: auto;
      margin-top: 20px;
-     padding: 5px;
+     padding-left: 10px;
+     padding-right: 10px;
 }
 .menu_image{
      display: flex;
