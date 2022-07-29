@@ -4,23 +4,21 @@
      justify-content: space-between;
      align-items: center;
 }
-
-.menu_page{
-    background-color: #6382a7;
+ .menu_page{
+     background-color: #6382a7;
 }
  .menu_colums {
      columns: 2;
      -webkit-columns: 2;
      -moz-columns: 2;
-      margin-top: 50px;
-      list-style-type: none;
-      display:grid;
-      column-gap: 25px;
-      grid-template-columns: auto auto;
-      justify-items: stretch;
-      padding-left: 120px;
-      padding-right: 120px;
-    
+     margin-top: 50px;
+     list-style-type: none;
+     display:grid;
+     column-gap: 25px;
+     grid-template-columns: auto auto;
+     justify-items: stretch;
+     padding-left: 120px;
+     padding-right: 120px;
 }
  .nav__links {
      display: flex;
@@ -64,14 +62,12 @@
      padding-left: 10px;
      padding-right: 10px;
 }
-.menu_image{
+ .menu_image{
      display: flex;
      width: 70px;
      height: 70px;
      margin: 0;
-     
 }
-
  .item {
      display: flex;
      justify-content: space-between;
@@ -105,7 +101,6 @@
      min-width: 60px;
      align-self: flex-end;
      color:#fff;
-
 }
  .description {
      font-family: 'Josefin Sans', sans-serif;
@@ -133,16 +128,15 @@
      color: #fff;
      font-size: 50px;
 }
-
-.menu_title2{
-  display: flex;
-  font-family: Dangrek, cursive;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5px;
-  color: #fff;
-  font-size: 50px;
+ .menu_title2{
+     display: flex;
+     font-family: Dangrek, cursive;
+     justify-content: space-around;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 5px;
+     color: #fff;
+     font-size: 50px;
 }
  .menu_uptitle{
      font-family: "Leckerli One", undefined;
@@ -154,7 +148,6 @@
      font-size: 20px;
      margin-top: 10px;
 }
- 
  @media screen and (max-width: 720px) {
      .menu_colums {
          align-items: center;
@@ -171,27 +164,26 @@
  .menu_position{
      margin-top: 5px;
 }
-
-.up_btn{
-    padding: 0.5rem 1em;
-    margin-top: -50px;
-    position: absolute;
-    right: 10px;
-    background-color: #537398;
-    color: #fff;
-    border-radius: 32px;
-    border:none;
-    cursor: pointer;
-    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
-    box-shadow: 0 2px 25px #537398;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 15px;
+ .up_btn{
+     padding: 0.5rem 1em;
+     margin-top: -50px;
+     position: absolute;
+     right: 10px;
+     background-color: #537398;
+     color: #fff;
+     border-radius: 32px;
+     border:none;
+     cursor: pointer;
+     transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+     box-shadow: 0 2px 25px #537398;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 700;
+     text-decoration: none;
+     font-size: 15px;
 }
-  .up_btn:hover {
-    transform: scale(0.9);
-    background-color: #537398;
-    box-shadow: 0 2px 25px #fff;
-    color: #fff;
-  }
+ .up_btn:hover {
+     transform: scale(0.9);
+     background-color: #537398;
+     box-shadow: 0 2px 25px #fff;
+     color: #fff;
+}
