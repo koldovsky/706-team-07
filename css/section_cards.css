@@ -76,7 +76,7 @@ main.cards section.card img {
 
 }
 
-.menu_link {
+/*.menu_link {
     padding: 0.5rem 1em;
     margin-top: 150px;
     background-color: #493b5f;
@@ -174,3 +174,26 @@ main.cards section.card img {
       background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
     }
   }
+*/
+
+.menu_link{
+  padding: 0.5rem 1em;
+    margin-top: 150px;
+    background-color: #493b5f;
+    color: #fff;
+    border-radius: 32px;
+    border:none;
+    cursor: pointer;
+    position: absolute;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: 0 2px 25px #493b5f;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.menu_link:hover {
+  transform: scale(0.9);
+  background-color: #a55376;
+  box-shadow: 0 2px 25px #fff;
+  color: #fff;
+}

@@ -185,24 +185,13 @@
     transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
     box-shadow: 0 2px 25px #537398;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
     text-decoration: none;
+    font-size: 15px;
 }
-
-.up_btn:before, 
-  .up_btn:after {
-    content: "";
-    width: 140%;
-    height: 100%;
-    left:-20%;
-    color: #fff;
-    
-    transition: all ease-in-out 0.5s;
-    background-repeat: no-repeat;
-  } 
-
-  .up_btn:active {
+  .up_btn:hover {
     transform: scale(0.9);
-    background-color: #a55376;
+    background-color: #537398;
     box-shadow: 0 2px 25px #fff;
     color: #fff;
   }
