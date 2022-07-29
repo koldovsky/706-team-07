@@ -73,7 +73,7 @@
         renderCarousel();
       }
 
-      //setInterval(nextSlide, 5000);
+      setInterval(nextSlide, 5000);
       renderCarousel();
 
       const nextButton = document.querySelector('.carousel-control-next');
