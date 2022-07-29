@@ -96,4 +96,70 @@
     -o-transform: scale(2 );
     transform-origin: center;
 }
+
+
+
+/* countdown */
     
+.ingred__countdown {
+    /*background-image: url(../img/background_book-a-table_card1.png);*/
+    display: block;
+    width: 70%;
+    min-width: 150px;
+    text-align: center;
+    /*height: 250px;*/
+    max-width: 200%;
+    padding: 0 0 20px 0;
+    background-color: #493b5f;
+    border: solid 2px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+  }
+   
+  .countdown-title {
+    color: white;
+    font-family: Dangrek;
+    font-weight: 400;
+    font-size: 60px;
+    margin: 40px 0px 20px;
+  }
+   
+  .countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+  }
+   
+  .ing-countdown-number {
+    /*width: 85px;*/
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(248, 174, 185);
+    display: inline-block;
+  }
+   
+  .countdown-time {
+    padding: 15px;
+    border-radius: 10px;
+    background: rgb(50, 38, 75);
+    display: inline-block;
+  }
+   
+  .ing-countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+  }
+  .order-clockbutton {
+    padding: 20px;
+    width: 100px;
+    border-radius: 20px;
+    background: yellow;
+    display: block;
+    text-align: center;
+
+  }
