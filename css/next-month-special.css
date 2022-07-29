@@ -35,6 +35,8 @@ margin-inline-end: 0px;
 padding-inline-start: 40px;
 flex-wrap: wrap;
 min-width: 600px;
+position: relative;
+top: 0px; left: 40px;
 }
 .text-fresh-fruit {
 font-family: Dangrek;
@@ -47,6 +49,8 @@ margin-inline-end: 0px;
 padding-inline-start: 40px;
 flex-wrap: wrap;
 min-width: 600px;
+position: relative;
+top: 0px; left: 40px;
 }
 .text-popping-sugar {
 font-family: Dangrek;
@@ -59,6 +63,8 @@ margin-inline-end: 0px;
 padding-inline-start: 40px;
 flex-wrap: wrap;
 min-width: 600px;
+position: relative;
+top: 0px; left: 40px;
 }
 p{
 font-family: Dangrek;
