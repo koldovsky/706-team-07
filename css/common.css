@@ -6,6 +6,7 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: #493b5f;
+    overflow-x: hidden;
 }
 .container {
     max-width: 1150px;
