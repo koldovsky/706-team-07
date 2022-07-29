@@ -83,10 +83,10 @@ display: block;
 display: block;
 justify-content:flex-start ;
 position:absolute;
-height: 40px;
-padding: 40;
+height: 68px;
+padding: 10px;
 background-color: white;
-text-align: center;
+border-radius: 3em;
 }
 
 
