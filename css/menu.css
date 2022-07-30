@@ -6,6 +6,7 @@
 }
  .menu_page{
      background-color: #6382a7;
+     overflow-x: hidden;
 }
  .menu_colums {
      columns: 2;
@@ -153,12 +154,13 @@
          align-items: center;
          display:grid;
          grid-template-columns: 100%;
+         padding: 5px;
     }
      .item-wrapper {
          white-space: nowrap;
          justify-content: space-around;
          flex-direction: column;
-         align-items: center;
+         align-items: flex-start;
     }
 }
  .menu_position{
