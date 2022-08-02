@@ -4,7 +4,6 @@ background inherit from "body" in section_cards.css
 .block-with-carousel-ice-cream-tastes {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #32264b;
     text-align: center;
     min-width: 411px;
     min-height: 550px;
@@ -17,7 +16,6 @@ background inherit from "body" in section_cards.css
     font-size: 14px;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: #32264b;
 }
 .block-with-carousel-ice-cream-tastes__biggets-text {
     text-align: center;
@@ -36,9 +34,8 @@ background inherit from "body" in section_cards.css
 }
 .img-carousel-element-icecream-tastes{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 200px;
+    padding: 20px 20px;
+    max-width: 250px;
 }
 .block-with-carousel-ice-cream-tastes__biggets-text {
     text-align: center;
@@ -82,12 +79,19 @@ background inherit from "body" in section_cards.css
     margin-right: 20px;
     padding: 15px 0px 15px 0px;
     text-align: center;
+    color: #ffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
 }
 .carousel-block {
     display: flex;
     justify-content: space-between;
 }
-
+.carousel-slide-wrapper {
+    margin: 20px 30px 0 30px;
+    background-color: #32264b;
+    border-radius: 15px;
+}
 @media (min-width: 480px) {
     .block-with-carousel-ice-cream-tastes__small-h2 {
         font-size: 15px;

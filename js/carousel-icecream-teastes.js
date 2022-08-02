@@ -1,16 +1,19 @@
 (function (){
     const slides = [
       `<div class="carousel-slide">
-        <img src="img/fistashka-teste.png" class="img-carousel-element-icecream-tastes d-block w-200"
+        <div class="carousel-slide-wrapper">
+          <img src="img/fistashka-teste.png" class="img-carousel-element-icecream-tastes d-block w-200"
           alt="Pistachio Ice cream ball">
-        <p class="block-with-carousel-ice-cream-tastes__carousel-element_name-of-taste">Pistachio Heaven</p>
-        <p class="block-with-carousel-ice-cream-tastes__carousel-element_taste-description">creamy nutty flavor</p>
-        <p class="block-with-carousel-ice-cream-tastes__carousel-element_price-common-text">
+          <p class="block-with-carousel-ice-cream-tastes__carousel-element_name-of-taste">Pistachio Heaven</p>
+          <p class="block-with-carousel-ice-cream-tastes__carousel-element_taste-description">creamy nutty flavor</p>
+          <p class="block-with-carousel-ice-cream-tastes__carousel-element_price-common-text">
           <span class="block-with-carousel-ice-cream-tastes__carousel-element_price-currecny-and-value">$5</span><span
             class="block-with-carousel-ice-cream-tastes__carousel-element_price-ball"> / ball</span>
-        </p>
+          </p>
+        </div>
       </div>`,
       `<div class="carousel-slide">
+        <div class="carousel-slide-wrapper">
           <img src="img/strawberry-jeam.png" class="img-carousel-element-icecream-tastes d-block w-200"
             alt="Strawberry Ice cream ball">
           <p class="block-with-carousel-ice-cream-tastes__carousel-element_name-of-taste">Strawberry Gem</p>
@@ -19,37 +22,44 @@
             <span class="block-with-carousel-ice-cream-tastes__carousel-element_price-currecny-and-value">$5</span>
             <span class="block-with-carousel-ice-cream-tastes__carousel-element_price-ball"> / ball</span>
           </p>
-        </div>`,
-        `<div class="carousel-slide">
-        <img src="img/coco-and-hazelnuts.png" class="img-carousel-element-icecream-tastes d-block w-200"
-          alt="Brown Ice Cream ball">
-        <p class="block-with-carousel-ice-cream-tastes__carousel-element_name-of-taste">Choco & Hazelnut</p>
-        <p class="block-with-carousel-ice-cream-tastes__carousel-element_taste-description">rich sweet taste</p>
-        <p class="block-with-carousel-ice-cream-tastes__carousel-element_price-common-text">
-          <span class="block-with-carousel-ice-cream-tastes__carousel-element_price-currecny-and-value">$5</span><span
-            class="block-with-carousel-ice-cream-tastes__carousel-element_price-ball"> / ball</span>
-        </p>
+        </div>
       </div>`,
+        `<div class="carousel-slide">
+          <div class="carousel-slide-wrapper">
+            <img src="img/coco-and-hazelnuts.png" class="img-carousel-element-icecream-tastes d-block w-200"
+            alt="Brown Ice Cream ball">
+            <p class="block-with-carousel-ice-cream-tastes__carousel-element_name-of-taste">Choco & Hazelnut</p>
+            <p class="block-with-carousel-ice-cream-tastes__carousel-element_taste-description">rich sweet taste</p>
+            <p class="block-with-carousel-ice-cream-tastes__carousel-element_price-common-text">
+            <span class="block-with-carousel-ice-cream-tastes__carousel-element_price-currecny-and-value">$5</span><span
+            class="block-with-carousel-ice-cream-tastes__carousel-element_price-ball"> / ball</span>
+            </p>
+          </div>
+        </div>`,
       `<div class="carousel-slide">
-      <img src="img/blue-ice-cream.png" class="img-carousel-element-icecream-tastes d-block w-200"
-        alt="Blue Ice Cream ball">
-      <p class="block-with-carousel-ice-cream-tastes__carousel-element_name-of-taste">Blue Paradise</p>
-      <p class="block-with-carousel-ice-cream-tastes__carousel-element_taste-description">sour and fruity</p>
-      <p class="block-with-carousel-ice-cream-tastes__carousel-element_price-common-text">
-        <span class="block-with-carousel-ice-cream-tastes__carousel-element_price-currecny-and-value">$5</span><span
+        <div class="carousel-slide-wrapper">
+          <img src="img/blue-ice-cream.png" class="img-carousel-element-icecream-tastes d-block w-200"
+          alt="Blue Ice Cream ball">
+          <p class="block-with-carousel-ice-cream-tastes__carousel-element_name-of-taste">Blue Paradise</p>
+          <p class="block-with-carousel-ice-cream-tastes__carousel-element_taste-description">sour and fruity</p>
+          <p class="block-with-carousel-ice-cream-tastes__carousel-element_price-common-text">
+          <span class="block-with-carousel-ice-cream-tastes__carousel-element_price-currecny-and-value">$5</span><span
           class="block-with-carousel-ice-cream-tastes__carousel-element_price-ball"> / ball</span>
-      </p>
-    </div>`,
+          </p>
+        </div>  
+      </div>`,
     `<div class="carousel-slide">
-    <img src="img/mango-ice-cream.png" class="img-carousel-element-icecream-tastes d-block w-200"
-      alt="Mango Ice Cream ball">
-    <p class="block-with-carousel-ice-cream-tastes__carousel-element_name-of-taste">Mango Dreams</p>
-    <p class="block-with-carousel-ice-cream-tastes__carousel-element_taste-description">classic tropic taste</p>
-    <p class="block-with-carousel-ice-cream-tastes__carousel-element_price-common-text">
-      <span class="block-with-carousel-ice-cream-tastes__carousel-element_price-currecny-and-value">$5</span><span
+      <div class="carousel-slide-wrapper">
+        <img src="img/mango-ice-cream.png" class="img-carousel-element-icecream-tastes d-block w-200"
+        alt="Mango Ice Cream ball">
+        <p class="block-with-carousel-ice-cream-tastes__carousel-element_name-of-taste">Mango Dreams</p>
+        <p class="block-with-carousel-ice-cream-tastes__carousel-element_taste-description">classic tropic taste</p>
+        <p class="block-with-carousel-ice-cream-tastes__carousel-element_price-common-text">
+        <span class="block-with-carousel-ice-cream-tastes__carousel-element_price-currecny-and-value">$6</span><span
         class="block-with-carousel-ice-cream-tastes__carousel-element_price-ball"> / ball</span>
-    </p>
-  </div>`];
+        </p>
+        </div>
+    </div>`];
   let currentSlideIdx = 0;
       function renderCarousel() {
         const slideContainer = document.querySelector('.carousel-block');
