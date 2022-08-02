@@ -204,13 +204,13 @@ img.blog-image {
      /*background-color: #fcfcfc;*/
      border: solid 3px;
      border-radius: 50%;
-     color: pink;
+     color: rgb(252, 178, 191);
      font-size: 44px;
      text-align: center;
      padding: 12px 24px 12px 24px;
      /*box-sizing: border-box;*/
      cursor: pointer;
-     transition: background .2s ease;
+     transition: background .2s ease;  /* прискорення анімації*/
      display: none;
  }
  
