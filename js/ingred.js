@@ -75,7 +75,7 @@ function initializeClock(id, endtime) {
   }
 
   updateClock();
-  let timeinterval = setInterval(updateClock, 1000);
+  let timeinterval = setInterval(updateClock, 1500);
 }
 
 let deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer

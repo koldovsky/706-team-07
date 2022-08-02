@@ -128,7 +128,13 @@
     transform-origin: left;
 }
 
-/*------- section blog -------- */
+/*------- section blog ------------------------------------------------ */
+
+
+section.blog {
+    display: block;
+    margin-top: 40px;
+}
 
 .blog-content {
     display: flex;
@@ -141,9 +147,9 @@
 }
 .info_card {
     display: block;
-    margin: 0px;
+    margin: 0 0 10px 0;
 }
-.blog-tityle {
+.blog-title {
     color: white;
     font-family: 'Dangrek';
     font-size: 24px;
@@ -185,5 +191,35 @@ img.blog-image {
     min-width: 200px;
     border: solid 0px;
     border-radius: 10px;
+    margin: 20px 0 20px 0;
 
 }
+
+/*-----------scroll-up----------*/
+
+.scroll-up {
+     position: fixed;
+     right: 10%;
+     bottom: 2%;
+     /*background-color: #fcfcfc;*/
+     border: solid 3px;
+     border-radius: 50%;
+     color: pink;
+     font-size: 44px;
+     text-align: center;
+     padding: 12px 24px 12px 24px;
+     /*box-sizing: border-box;*/
+     cursor: pointer;
+     transition: background .2s ease;
+     display: none;
+ }
+ 
+ .scroll-up:hover {
+    /* background-color: #eeeeee;*/
+     color: red;
+     transform: scale(1.05 );
+     -moz-transform: scale(1.05 );
+     -o-transform: scale(1.05 );
+     transform-origin: center;
+     
+ }

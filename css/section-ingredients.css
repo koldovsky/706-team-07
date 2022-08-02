@@ -109,10 +109,14 @@
 
 
 
-/* countdown */
+/*------------------ countdown------------------ */
 
+
+.countdown_section{
+    display: flex;
+    justify-content: center;
+}
 .ingred__countdown {
-    /*background-image: url(../img/background_book-a-table_card1.png);*/
     display: block;
     width: 70%;
     min-width: 450px;
