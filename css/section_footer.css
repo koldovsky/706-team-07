@@ -1,0 +1,123 @@
+section .footer {
+    display: block;
+    width: 100%;
+      
+
+}
+.footer__conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(50, 38, 75);
+    margin: 20px 20px 0 20px;
+    min-width: 550px;
+  
+}
+.snowman__logo-icon a {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0;
+}
+.section-item-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
+    text-align: center;
+}
+.section-item-help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-width: 300px;
+}
+.section-item-open {
+    display: block;
+    min-width: 300px;
+}
+#title-footer-open {
+    margin-top: 30px;
+}
+#title-footer-help {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#open-text {
+    padding: 15px 0 10px 40px;
+}
+.section-item-nav h4 {
+    margin: 10px 0 30px 0;
+
+}
+.footer__conteiner ul {
+    list-style: none;
+    min-width: 260px;
+    font-size: 18px;
+    color: white;
+
+}
+.footer__conteiner h4 {
+    color: white;
+    font-family: 'Dangrek';
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.footer__conteiner p {
+    font-family: 'Source Sans 3';
+    font-size: 18px;
+    color: white;
+    opacity: 0.5;
+    font-weight: 300;
+    text-align: left;
+    padding: 20px 0 10px 40px;
+}
+.footer-list {
+    margin-left: -32px;
+    font-size: 18px;   
+}
+.footer-list a {
+    font-family: 'Source Sans 3';
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: none;
+}
+.footer-list :hover {
+    text-decoration: underline;
+    color: pink;
+    transition: 0.2s;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform-origin: center;
+}
+#book-phone-num p {
+    font-family: 'Dangrek';
+    font-size: 24px;
+    color: yellow;
+    opacity: 1;
+    padding: 0 0 0 50px; 
+}
+.footer_bottom-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    /*width: 100%;*/
+    min-width: 550px;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(50, 38, 75);
+    margin: 2px 20px 20px 20px
+
+}
+.bottom-text__item {
+    display: block;
+    font-family: 'Source Sans 3' sans-serif;
+    font-size: 16px;
+    color: white;
+    opacity: 0.8;
+    font-weight: 300;
+    padding: 10px 40px 10px 40px;
+
+}

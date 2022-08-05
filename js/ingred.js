@@ -30,7 +30,7 @@
     renderCarousel();
   }
 
-  setInterval(next, 500);
+  setInterval(next, 1500);
 
   renderCarousel();
 

@@ -16,7 +16,7 @@ let b = '▼';
 a = a.concat(b);*/
 
 
-$(document).scroll( function() {
+$(document).scroll( function() {   
 	if ( $(document).scrollTop() > 0 ) {
 		$('#scroll-up').fadeIn();
 		$('#scroll-up').text('▲');
