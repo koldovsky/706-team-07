@@ -85,7 +85,7 @@ width: 350px;
 justify-content: flex-end;
 display: block;
 }
-#icon {
+.icon-vanilla {
 display: block;
 justify-content:flex-start ;
 position:absolute;
@@ -93,6 +93,24 @@ height: 68px;
 padding: 10px;
 background-color: white;
 border-radius: 3em;
+}
+.icon-fresh-fruit {
+    display: block;
+    justify-content:flex-start ;
+    position:absolute;
+    height: 68px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3em;  
+}
+.icon-popping-sugar {
+    display: block;
+    justify-content:flex-start ;
+    position:absolute;
+    height: 68px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3em;   
 }
 
 
