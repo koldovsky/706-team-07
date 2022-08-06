@@ -64,7 +64,7 @@
     display: block;
     background-color: #ffc452;
     border-radius: 27px;
-    border-width: 2px;
+    border-width: 0px;
     text-align: center;
     color: white;
     margin: 35px 0px 0px 0px;
@@ -91,6 +91,11 @@
     text-decoration-line: none;
     text-decoration-style: solid;
     line-height: 20.7px;
+}
+
+.bookTableModal{
+    margin: 0 auto;
+    padding: 100 0 100 0;
 }
 
 @media only screen and (min-width: 768px){
