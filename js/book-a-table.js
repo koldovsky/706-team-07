@@ -44,10 +44,11 @@ class bookTable{
           window.showAlert("There is an error: " + error, false)
         );
     } else {
-      window.showAlert("Please fill form correctly", false);
+      //window.showAlert("Please fill form correctly", false);
     }
   }
 
 }
 
 new bookTable();
+

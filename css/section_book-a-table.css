@@ -70,7 +70,15 @@
     margin: 35px 0px 0px 0px;
     padding: 15px 30px;
     width: fit-content;
+    box-shadow: 0 0 1px rgba(33, 39, 54, .04), 0 2px 4px rgba(33, 39, 54, .16);
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+  }
+
+.button:hover{
+    background-color: #eab754
 }
+
 .button2{
     display: block;
     align-content: center;
@@ -82,6 +90,13 @@
     text-align: center;
     color: white;
     padding: 15px 30px;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.button2:hover{
+    background-color: #a55376;
+    color: #fff;
 }
 
 .card1-link, .card2-link{
@@ -93,10 +108,6 @@
     line-height: 20.7px;
 }
 
-.bookTableModal{
-    margin: 0 auto;
-    padding: 100 0 100 0;
-}
 
 @media only screen and (min-width: 768px){
     .book-a-table_block{

@@ -369,24 +369,26 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="bookTableModalLabel">Booking</h5>
 
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <div class="modal-header_btn-close">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-header_titles">
+                <h5 class="modal-title" id="bookTableModalLabel">Booking</h5>
+                <span class="modal-title_2">Book a Table</span>
+                <span class="modal-title_3">Please fill out the form below</span>
+              </div>
             </div>
             <div class="modal-body">
               <form class="formBookTable">
                 <div class="mb-3">
                   <input type="text" class="form-control" placeholder="Your Name*" name="name" required>
-                  <input type="tel" class="form-control" placeholder="Phone Number*" name="phone" required>
+                  <input type="tel" class="form-control" placeholder="Phone number*" name="phone" required>
                   <input type="date" class="form-control" placeholder="Choose Date" name="date" required>
                   <input type="number" class="form-control" placeholder="Number of people*" name="people" required>
-                </div>            
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required>
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-    
-                <button type="submit" class="btn btn-primary order">Book a Table</button>
+                  <input type="email" class="form-control" placeholder="Email*" name="email" required>
+                </div>                
+                <button type="submit" class="button3 order">Book a Table</button>
               </form>
             </div>
           </div>
@@ -578,5 +580,6 @@
 
 <script src="js/book-a-table.js"></script>
 <script src="js/showAlert.js"></script>
+<script src="js/clear-modal.js"></script>
 
 </html>
