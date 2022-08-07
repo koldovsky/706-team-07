@@ -5,14 +5,16 @@ padding: 40;
 color: rgb(250, 253,255);
 text-transform: none; 
 display: flex; 
-flex-direction: inherit;
 justify-content: center;
-height: 600px;
+height: 800px;
+flex-wrap: wrap;
+gap: 50px;
+align-items: center;
     }    
 h2 {
     font-family: Leckerli One;
     font-weight: 400; 
-    font-size: 21px; 
+    font-size: 21px;
 }
 .subtitle__list {
 color: rgb(237, 236, 242);
@@ -33,7 +35,6 @@ margin-block-end: 1em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 padding-inline-start: 40px;
-flex-wrap: wrap;
 min-width: 600px;
 position: relative;
 top: 0px; left: 40px;
@@ -47,7 +48,6 @@ margin-block-end: 1em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 padding-inline-start: 40px;
-flex-wrap: wrap;
 min-width: 600px;
 position: relative;
 top: 0px; left: 40px;
@@ -61,7 +61,6 @@ margin-block-end: 1em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 padding-inline-start: 40px;
-flex-wrap: wrap;
 min-width: 600px;
 position: relative;
 top: 0px; left: 40px;
@@ -101,7 +100,7 @@ border-radius: 3em;
     height: 68px;
     padding: 10px;
     background-color: white;
-    border-radius: 3em;  
+    border-radius: 3em;
 }
 .icon-popping-sugar {
     display: block;
@@ -110,7 +109,7 @@ border-radius: 3em;
     height: 68px;
     padding: 10px;
     background-color: white;
-    border-radius: 3em;   
+    border-radius: 3em;
 }
 
 
