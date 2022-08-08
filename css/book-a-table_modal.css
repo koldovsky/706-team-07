@@ -1,0 +1,118 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus{
+
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  box-shadow: none;
+  transition: background-color 5000s ease-in-out 0s;
+  color: #fff;
+  caret-color: white;
+}
+
+  
+
+.modal-content{
+    background-color: #493b5f !important;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.modal-header{
+    display: block !important;
+    border: 0px !important;
+}
+
+.modal-header_btn-close{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: end;
+}
+
+.modal-header_titles{
+    display: block;
+    align-content: center;
+}
+
+.modal-title{
+    font-family: 'Leckerli One', sans-serif;
+    color: white;
+    font-size: 21px;
+    margin: 0px;
+    text-align: center;
+}
+
+.modal-title_2{
+    font-family: 'Dangrek', sans-serif;
+    color: white;
+    font-size: 48px;
+    margin: 10px 0px 0px 0px;
+    display: block;
+    text-align: center;
+}
+
+.modal-title_3{
+    font-family: 'Source Sans 3', sans-serif;
+    color: rgb(225,221,232);
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
+
+.form-control{
+    background-color: rgba(50, 38, 75, 0.18);
+    border: 0px;
+    border-bottom: 2px solid #32264b;
+    border-radius: 0px;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    color: rgb(225,221,232);
+}
+.form-control::placeholder{
+    color: #c5cbd6;
+	font-size: 16px;
+
+}
+
+.form-control:focus{
+    background-color: rgba(50, 38, 75, 0.18);
+    outline: auto;
+    outline-width: initial;
+    outline-color: #3b99fc;
+    color: #fff;
+    border-color: rgba(50, 38, 75, 0.18);
+    box-shadow: none !important;
+}
+
+input:-webkit-autofill,
+input:autofill,
+input:-webkit-autofill:hover,
+input:autofill:hover{
+    -webkit-text-fill-color: #000;
+}
+
+  
+.button3{
+    display: block;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    border: none;
+    background-color: rgb(50, 38, 75);
+    border-radius: 27px;
+    border-width: 2px;
+    text-align: center;
+    color: white;
+    padding: 15px 30px;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.button3:hover{
+    background-color: #a55376;
+    color: #fff;
+}
+

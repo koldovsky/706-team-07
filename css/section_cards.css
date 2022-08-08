@@ -37,6 +37,7 @@ main.cards section.card img {
 @media screen and (max-width: 720px) {
   main.cards {
       flex-direction: column;
+      margin-top: 50px;
  }
   main.cards section.card {
       margin-left: 0;
