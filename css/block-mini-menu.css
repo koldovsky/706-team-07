@@ -35,24 +35,6 @@
 
 }
 
-.menu-block-buttons button {
-    color: #fff;
-    opacity: .6;
-    background: none;
-    border: 0ch;
-    padding: 20px 15px;
-}
-
-.menu-block-buttons {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.menu-block-buttons button:hover {
-    opacity: 1;
-    cursor: pointer;
-}
-
 .block-mini-menu {
     max-width: 1300px;
     margin: 0 auto;
@@ -76,7 +58,6 @@
 
 .asorti-block {
     margin: 0 auto;
-    display: non;
 
 }
 
@@ -113,11 +94,13 @@
     background-color: rgb(50, 38, 75);
     padding: 40px;
     border-radius: 30px;
+    width: 213px;
+    height: 210px;
 }
 .deserts {
     width: 1300px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(1,1fr);
 }
 .deserts .grid {
     display: grid;
@@ -129,4 +112,73 @@
     max-width: 120rem;
     padding: 0 3.2rem;
     margin: 0 auto;
+  }
+
+  .asorti-price{
+    color:gold;
+    font-family: 'Concert One', cursive;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .asorti_product_name{
+    color: #fff;
+    font-family: 'Concert One', cursive;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .deserts:not(.deserts.active){
+    display: none;
+  }
+  .menu-block-buttons{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+  }
+  
+  .asorti-block-button-desserts {
+    background: none;
+    border: none;
+    font-family:'Source Sans 3', sans-serif;
+    color:#fff;
+    opacity: .6;
+    cursor: pointer;
+    padding: 18px 36px;
+
+  }
+
+  .asorti-block-button-desserts:hover{
+    opacity: 1;
+  }
+
+  .asorti-block-button-ice-crem {
+    background: none;
+    border: none;
+    font-family:'Source Sans 3', sans-serif;
+    color:#fff;
+    opacity: .6;
+    cursor: pointer;
+    padding: 18px 36px;
+
+  }
+
+  .asorti-block-button-ice-crem:hover{
+    opacity: 1;
+  }
+
+  .asorti-block-button-drinks {
+    background: none;
+    border: none;
+    font-family:'Source Sans 3', sans-serif;
+    color:#fff;
+    opacity: .6;
+    cursor: pointer;
+    padding: 18px 36px;
+
+  }
+
+  .asorti-block-button-drinks:hover{
+    opacity: 1;
   }
