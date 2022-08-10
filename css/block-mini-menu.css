@@ -62,19 +62,6 @@
 }
 
 
-.tabs-items{
-    display: flex;
-}
-
-.tabs-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Source Sans Pro', sans-serif ;
-    color: #fff;
-    opacity: .6 ;
-    text-decoration: none;
-    
 
 }
 
@@ -86,16 +73,30 @@
 
 
 .desert_item {
-    width: 130px;
+    
+    
+    border-radius: 30px;
+    width: 150px;
     height: auto;
 }
 .desert_img {
+  background-color: rgb(50, 38, 75);
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto ;
+  border-radius: 5px;
 
-    background-color: rgb(50, 38, 75);
-    padding: 40px;
-    border-radius: 30px;
-    width: 213px;
-    height: 210px;
+}
+.desert_item.ice-cream-picture{
+   height: 70%;
+   width: 70px;
+
+}
+.desert_item.shake-picture{
+  height: 150px;
+  width: auto;
 }
 .deserts {
     width: 1300px;
@@ -105,7 +106,7 @@
 .deserts .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    gap: 10px;
 }
 .container {
     /* 1140px */
@@ -117,14 +118,14 @@
   .asorti-price{
     color:gold;
     font-family: 'Concert One', cursive;
-    font-size: 26px;
+    font-size: 18px;
     text-align: center;
   }
 
   .asorti_product_name{
     color: #fff;
     font-family: 'Concert One', cursive;
-    font-size: 26px;
+    font-size: 18px;
     text-align: center;
   }
 
@@ -135,6 +136,7 @@
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    
     
   }
   
